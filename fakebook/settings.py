@@ -186,5 +186,6 @@ MEDIA_ROOT = BASE_DIR / 'static_cdn' / 'media_root'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# activate Django-heroku
+# Activate Django-Heroku.
 django_heroku.settings(locals())
+
